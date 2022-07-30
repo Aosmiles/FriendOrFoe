@@ -67,6 +67,9 @@ select {
   }
 }
 
+p {
+  font-family: 'Libre Baskerville', serif;
+}
 
 .title {
     font-family: 'Oswald', sans-serif;
