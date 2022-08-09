@@ -16,20 +16,31 @@
             
         </nav>
         <div class="header__title">
-            <h1 class="title">FRIEND OF FOE</h1>
+            <h1 class="title">FRIEND OR FOE</h1>
             <p class="title__subtitle">You fly for the allies! Shoot down the enemy planes!</p>
         </div>
     </header>
     <main class="main">
         <section class="image-container">
+            <div class="start-section">
+                <button class="start controls__button">START</button>
+            </div>
             <div class="image-container__line"><img src="images/assets/line_01.jpg" alt=""></div>
             <div class="plane">
-                
+                <img id="plane-img" src="" alt="">
             </div>
             <div class="image-container__line"><img src="images/assets/line_02.jpg" alt=""></div>
         </section>
         <section class="controls">
-            
+            <div class="control__item">
+                <button class="controls__button fire">FIRE!</button>
+            </div>
+            <div class="control__item countdown">
+                <span class="countdown__number"></span>
+            </div>
+            <div class="control__item">
+                <button class="controls__button hold-fire">HOLD!</button>
+            </div>
         </section>
     </main>
     <footer class="footer">
